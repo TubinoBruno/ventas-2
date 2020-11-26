@@ -1,0 +1,25 @@
+:host {
+	::ng-deep {
+		ngb-tabset > .nav-tabs {
+			display: none;
+		}
+	}
+}
+
+.kt-notification__item:hover .kt-notification__item-title {
+	color: #22b9ff !important;
+}
+
+::ng-deep .kt-head__title {
+	color: white !important;
+}
+
+.nav-tabs.nav-tabs-line.nav-tabs-line-brand.nav.nav-tabs .nav-link:hover, .nav-tabs.nav-tabs-line.nav-tabs-line-brand.nav.nav-tabs .nav-link.active, .nav-tabs.nav-tabs-line.nav-tabs-line-brand a.nav-link:hover, .nav-tabs.nav-tabs-line.nav-tabs-line-brand a.nav-link.active {
+	color: white;
+	border-bottom: 1px solid white;
+}
+
+.nav-tabs.nav-tabs-line.nav.nav-tabs .nav-link, .nav-tabs.nav-tabs-line a.nav-link {
+	background-color: transparent;
+	color: rgba(255, 255, 255, 0.5);;
+}

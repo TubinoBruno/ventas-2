@@ -137,111 +137,37 @@ export class MenuConfig {
 					bullet: 'dot',
 				},
 				{
-					title : 'Desarrollo profesional',
+					title : 'Personal',
 					root : true,
 					alignment : 'left',
-					toggle : 'click',
 					icon : 'flaticon2-list-3',
-					bullet : 'dot',
-					submenu : [ 
-						{
-							title : 'Desarrollo profesional',
-							page : '/admin/desarrollo/modifcargo'
-						},
-						{
-							title : 'Incremento salarial',
-							page : '/admin/desarrollo/modifsalario'
-						}
-
-					]
 				},
 				{
-					title : 'Reclutamiento',
+					title : 'Recursos Humanos',
 					root : true,
 					alignment : 'left',
-					toggle : 'click',
 					icon : 'flaticon2-group',
-					bullet : 'dot',
-					submenu : [
-						{
-							title : 'Nuevo Proceso',
-							page : '/admin/reclutamiento/proceso-nuevo'
-						},
-						{
-							title : 'Procesos activos',
-							page : '/admin/reclutamiento/procesos-activos'
-						},
-						{
-							title : 'Procesos cerrados',
-							page : '/admin/reclutamiento/procesos-cerrados'
-						},
-						{
-							title : 'Inducción',
-							page : '/admin/reclutamiento/induccion'
-						}
-					]
 				},
 				{
-					title : 'Evaluaciones',
+					title : 'Modulo 3',
 					root : true,
 					alignment : 'left',
-					toggle : 'click',
 					bullet : 'dot',
 					icon : 'flaticon2-hourglass-1',
-					submenu : [
-						{
-							title : 'Clima laboral',
-							page : '/admin/evaluacion/clima-laboral'
-						},
-						{
-							title : 'Desempeño',
-							page : '/admin/evaluacion/desempeno'
-						}
-					]
 				},
 				{
-					title : 'Beneficios',
+					title : 'Modulo 4',
 					root : true,
 					alignment : 'left',
-					toggle : 'click',
 					bullet : 'dot',
 					icon : 'flaticon2-analytics-2',
-					submenu : [ 
-						{
-							title : 'Solicitudes capacitaciones',
-							page : '/admin/beneficios/solicit-capacitaciones'
-						},
-						{
-							title : 'Solicitudes campañas',
-							page : '/admin/beneficios/solicit-campanas'
-						},
-						{
-							title : 'Solicitudes beneficios',
-							page : '/admin/beneficios/solicit-beneficios'
-						},
-						{
-							title : 'Solicitudes préstamos',
-							page : '/admin/beneficios/solicit-prestamos'
-						}
-					]
+					submenu : []
 				},
 				{
-					title : 'Actividades',
+					title : 'Modulo 5',
 					root : true,
 					alignment : 'left',
-					toggle : 'click',
-					bullet : 'dot',
 					icon : 'flaticon2-medical-records-1',
-					submenu : [ 
-						{
-							title : 'Contratación de servicios',
-							page : '/admin/actividad/contrat-servicios'
-						},
-						{
-							title : 'Cumpleañeros',
-							page : '/admin/actividad/cumpleaneros'
-						},
-					]
 				},
 				{
 					title: 'Module 6',

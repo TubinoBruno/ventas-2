@@ -1,0 +1,31 @@
+{
+    "data": [
+        {
+            "cod_item": "100234",
+            "descripcion": "Detalle de item 1",
+            "cantidad": "1",
+            "precio_unitario": "2300",
+            "moneda": "Bs.",
+            "subtotal": "2300",
+            "almacen": "Almacen 1"
+        },
+        {
+            "cod_item": "100236",
+            "descripcion": "Detalle de item 2",
+            "cantidad": "2",
+            "precio_unitario": "760",
+            "moneda": "Bs.",
+            "subtotal": "1520",
+            "almacen": "Almacen 2"
+        },
+        {
+            "cod_item": "100238",
+            "descripcion": "Detalle de item 3",
+            "cantidad": "1",
+            "precio_unitario": "1400",
+            "moneda": "Bs.",
+            "subtotal": "1400",
+            "almacen": "Almacen 3"
+        }
+    ]
+}

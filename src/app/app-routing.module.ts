@@ -22,24 +22,33 @@ const routes: Routes = [
 				loadChildren: () => import('../app/views/pages/dashboard/dashboard.module').then(m => m.DashboardModule)
 			},
 			{
-				path : 'desarrollo',
-				loadChildren: () => import('../app/views/pages/development/development.module').then(m => m.DevelopmentModule)
+				path: 'facturas',
+				loadChildren: () => import('../app/views/pages/facturas/facturas.module').then(m => m.FacturasModule)
 			},
 			{
-				path : 'reclutamiento',
-				loadChildren : () => import('../app/views/pages/recruitment/recruitment.module').then(m => m.RecruitmentModule)
+				path: 'new-factura',
+				loadChildren: () => import('../app/views/pages/new-factura/new-factura.module').then(m => m.NewFacturaModule)
 			},
 			{
-				path : 'evaluacion',
-				loadChildren : () => import('../app/views/pages/evaluations/evaluations.module').then(m => m.EvaluationsModule)
+				path: 'new-product',
+				loadChildren: () => import('../app/views/pages/new-product/new-product.module').then(m => m.NewProductModule)
+			},
+			
+			{
+				path: 'product',
+				loadChildren: () => import('../app/views/pages/product/product.module').then(m => m.ProductModule)
 			},
 			{
-				path : 'beneficios',
-				loadChildren : () => import('../app/views/pages/benefits/benefits.module').then(m => m.BenefitsModule)
+				path: 'new-pago',
+				loadChildren: () => import('../app/views/pages/new-pago/new-pago.module').then(m => m.NewPagoModule)
 			},
 			{
-				path : 'actividad',
-				loadChildren : () => import('../app/views/pages/activity/activity.module').then(m => m.ActivityModule)
+				path: 'dosificaciones',
+				loadChildren: () => import('../app/views/pages/dosificaciones/dosificaciones.module').then(m => m.DosificacionesModule)
+			},
+			{
+				path: 'cajas',
+				loadChildren: () => import('../app/views/pages/cajas/cajas.module').then(m => m.CajasModule)
 			},
 			{
 				path: 'error/403',

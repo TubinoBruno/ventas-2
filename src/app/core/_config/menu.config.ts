@@ -5,124 +5,78 @@ export class MenuConfig {
 			items: [
 				{
 					title: 'Dashboard',
+					subtitle: 'dashboard',
 					root: true,
 					alignment: 'left',
+					toggle: 'click',
 					page: '/admin/dashboard',
 					translate: 'MENU.DASHBOARD',
+
 				},
 				{
-					title : 'Desarrollo profesional',
+					title : 'Facturación',
+					subtitle: 'facturacion',
 					root : true,
 					alignment : 'left',
 					toggle : 'click',
 					submenu : [ 
 						{
-							title : 'Cambio de cargo',
+							title : 'Nueva factura',
 							bullet : 'dot',
-							icon: 'flaticon2-group',
-							page : '/admin/desarrollo/modifcargo'
+							icon: 'fa fa-file-invoice-dollar',
+							page : '/admin/new-factura'
 						},
 						{
-							title : 'Incremento salarial',
+							title : 'Facturas',
 							bullet : 'dot',
-							icon: 'flaticon2-group',
-							page : '/admin/desarrollo/modifsalario'
+							icon: 'fa fa-copy',
+							page : '/admin/facturas'
 						}
 
 					]
 				},
 				{
-					title : 'Reclutamiento',
+					title : 'Productos',
 					root : true,
 					alignment : 'left',
 					toggle : 'click',
 					submenu : [
 						{
-							title : 'Nuevo Proceso',
+							title : 'Nuevo Producto',
 							icon : 'fa fa-user-plus',
-							page : '/admin/reclutamiento/proceso-nuevo'
+							page : '/admin/new-product'
 						},
 						{
-							title : 'Procesos activos',
+							title : 'Productos',
 							icon : 'flaticon2-file-1',
-							page : '/admin/reclutamiento/procesos-activos'
-						},
-						{
-							title : 'Procesos cerrados',
-							icon : 'flaticon2-file-1',
-							page : '/admin/reclutamiento/procesos-cerrados'
-						},
-						{
-							title : 'Inducción',
-							icon : 'flaticon2-file-1',
-							page : '/admin/reclutamiento/induccion'
+							page : '/admin/product'
 						}
 					]
 				},
 				{
-					title : 'Evaluaciones',
+					title : 'Cajas',
 					root : true,
 					alignment : 'left',
 					toggle : 'click',
 					submenu : [
 						{
-							title : 'Clima laboral',
+							title : 'Cajas',
+							icon : 'fa fa-calculator',
+							page : '/admin/cajas'
+						},
+						{
+							title : 'Dosificaciones',
 							icon : 'flaticon2-sheet',
-							page : '/admin/evaluacion/clima-laboral'
+							page : '/admin/dosificaciones'
 						},
 						{
-							title : 'Desempeño',
-							icon : 'flaticon2-browser',
-							page : '/admin/evaluacion/desempeno'
+							title : 'Nuevo Pago',
+							icon : 'fa fa-plus-square',
+							page : '/admin/new-pago'
 						}
 					]
 				},
-				{
-					title : 'Beneficios',
-					root : true,
-					alignment : 'left',
-					toggle : 'click',
-					submenu : [ 
-						{
-							title : 'Solicitudes capacitaciones',
-							icon: 'flaticon2-file-1',
-							page : '/admin/beneficios/solicit-capacitaciones'
-						},
-						{
-							title : 'Solicitudes campañas',
-							icon: 'flaticon2-file-1',
-							page : '/admin/beneficios/solicit-campanas'
-						},
-						{
-							title : 'Solicitudes beneficios',
-							icon: 'flaticon2-file-1',
-							page : '/admin/beneficios/solicit-beneficios'
-						},
-						{
-							title : 'Solicitudes préstamos',
-							icon: 'flaticon2-file-1',
-							page : '/admin/beneficios/solicit-prestamos'
-						}
-					]
-				},
-				{
-					title : 'Actividades',
-					root : true,
-					alignment : 'left',
-					toggle : 'click',
-					submenu : [ 
-						{
-							title : 'Contratación de servicios',
-							icon: 'flaticon2-supermarket',
-							page : '/admin/actividad/contrat-servicios'
-						},
-						{
-							title : 'Cumpleañeros',
-							icon: 'flaticon2-bell-1',
-							page : '/admin/actividad/cumpleaneros'
-						},
-					]
-				},
+				
 			]
 		},
 		aside: {
@@ -132,7 +86,6 @@ export class MenuConfig {
 					title: 'Dashboard',
 					root: true,
 					icon: 'flaticon2-protection',
-					page: '/admin/dashboard',
 					translate: 'MENU.DASHBOARD',
 					bullet: 'dot',
 				},
@@ -149,11 +102,13 @@ export class MenuConfig {
 					icon : 'flaticon2-group',
 				},
 				{
-					title : 'Modulo 3',
+					title : 'Ventas',
 					root : true,
 					alignment : 'left',
+					page: '/admin/',
+
 					bullet : 'dot',
-					icon : 'flaticon2-hourglass-1',
+					icon : 'flaticon2-shopping-cart-1',
 				},
 				{
 					title : 'Modulo 4',

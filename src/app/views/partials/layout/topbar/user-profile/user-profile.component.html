@@ -3,8 +3,8 @@
 		<div class="kt-header__topbar-user" [ngClass]="{'kt-header__topbar-icon': icon}">
 			<!-- <span class="kt-header__topbar-welcome kt-hidden-mobile" *ngIf="greeting">Hi,</span>
 			<span class="kt-header__topbar-username kt-hidden-mobile" *ngIf="greeting">{{_user.fullname}}</span> -->
-			<i *ngIf="icon" class="flaticon2-user-outline-symbol"></i>
-			<img *ngIf="avatar" alt="Pic" [attr.src]="'assets/media/users/100-10.jpg'" style="border-radius: 50%;">
+			<i *ngIf="icon"></i>
+			<img id="imgperfil" alt="Pic" [attr.src]="'assets/media/users/300_2.jpg'" style="border-radius: 50%;">
 			<span *ngIf="badge" class="kt-badge kt-badge--username kt-badge--unified-success kt-badge--lg kt-badge--rounded kt-badge--bold">{{_user.fullname|firstLetter}}</span>
 		</div>
 	</div>

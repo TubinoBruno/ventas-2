@@ -1,0 +1,46 @@
+{
+    "data": [
+        {
+            "necesidad": "NI",
+            "moneda": "Bs.",
+            "valor": "4700",
+            "costo": "3200",
+            "restriccion": "2",
+            "valor_restric": "300",
+            "valor_comision": "500",
+            "valor_finan": "800",
+            "fecha_desde": "21-Feb-2021",
+            "fecha_hasta": "21-Feb-2022",
+            "tipo_lista": "Comercial",
+            "estado": "Por aprobar"
+        },
+        {
+            "necesidad": "NI",
+            "moneda": "Bs.",
+            "valor": "4500",
+            "costo": "3100",
+            "restriccion": "2",
+            "valor_restric": "300",
+            "valor_comision": "500",
+            "valor_finan": "800",
+            "fecha_desde": "21-Feb-2020",
+            "fecha_hasta": "21-Feb-2021",
+            "tipo_lista": "Comercial",
+            "estado": "Activo"
+        },
+        {
+            "necesidad": "NI",
+            "moneda": "Bs.",
+            "valor": "4400",
+            "costo": "3100",
+            "restriccion": "2",
+            "valor_restric": "300",
+            "valor_comision": "400",
+            "valor_finan": "800",
+            "fecha_desde": "21-Feb-2019",
+            "fecha_hasta": "21-Feb-2020",
+            "tipo_lista": "Comercial",
+            "estado": "Inactivo"
+        }
+    ]
+}

@@ -1,8 +1,10 @@
 // Angular
 import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { LayoutConfigService } from '../../../core/_base/layout';
+import { Router, ActivatedRoute } from '@angular/router';
 
 import { DataTableService } from '../../../core/_base/layout/services/datatable.service';
+let g_router;
 
 declare var $: any;
 declare var Morris: any;
@@ -24,7 +26,8 @@ export class DashboardComponent implements OnInit {
 	@ViewChild('chart2', { static: true }) chart2: ElementRef;
 	@ViewChild('chart3', { static: true }) chart3: ElementRef;
 
-	constructor(private layoutConfigService: LayoutConfigService, private service: DataTableService) {
+	constructor(private layoutConfigService: LayoutConfigService, private service: DataTableService, private router: Router) {
+		g_router = router;
 	}
 
 	ngOnInit(): void {
@@ -49,6 +52,8 @@ export class DashboardComponent implements OnInit {
 			};
 		}();
 		this.KTBootstrapSelect.init();
+		initEvents();
+
 	}
 
 
@@ -335,7 +340,7 @@ export class DashboardComponent implements OnInit {
 		this.service.getDashboardTableData2().subscribe(res => {
 			this.KTDatatableModal2 = function () {
 				var subRemoteTablaFuncionarios = function () {
-					var el = $('#tabla-funcionarios');
+					var el = $('#tabla-facturas-pendientes');
 					var datatable = el.KTDatatable({
 						// datasource definition
 						data: {
@@ -369,106 +374,58 @@ export class DashboardComponent implements OnInit {
 						// columns definition
 						columns: [
 							{
-								field: '',
-								title: 'Funcionario',
+								field: 'num_factura',
+								title: 'Número',
+								autoHide: false,
+								width: 70,
+								// callback function support for column rendering
 								template: function (row) {
-									var number = row.id_empleado;
-									var user_img = number + '.jpg';
-									var output;
-									if (number < 10015) {
-										output = `
-											<div class="kt-user-card-v2">
-													<div class="kt-user-card-v2__pic">
-															<img src="assets/funcionarios/` + user_img + `" class="m-img-rounded kt-marginless" alt="photo">
-													</div>
-													<div class="kt-user-card-v2__details">
-															<a class="kt-user-card-v2__name kt-link">` + row.apellido_paterno + `</a>
-															<span class="kt-user-card-v2__email">` + row.first_name + `</span>
-													</div>
-											</div>`;
-									} else {
-										var stateNo = KTUtil.getRandomInt(0, 7);
-										var states = [
-											'success',
-											'brand',
-											'danger',
-											'success',
-											'warning',
-											'dark',
-											'primary',
-											'info'];
-										var state = states[stateNo];
 
-										output = `
-											<div class="kt-user-card-v2">
-													<div class="kt-user-card-v2__pic">
-															<div class="kt-badge kt-badge--xl kt-badge--` + state + `"><span>` + row.apellido_paterno.substring(0, 1) + `</div>
-													</div>
-													<div class="kt-user-card-v2__details">
-															<a class="kt-user-card-v2__name kt-link">` + row.apellido_paterno + `</a>
-															<span class="kt-user-card-v2__email">` + row.first_name + `</span>
-													</div>
-											</div>`;
-									}
-									return output;
+									return '<a class="kt-link link-num factura-detalle">' + row.num_factura + '</a>';
 								},
 
 							}, {
-								field: 'id_empleado',
-								title: 'ID Empleado',
-								width: 90,
-								template: function (row) {
-									var output;
-									output = `
-										<a class="kt-link link-num">` + row.id_empleado + `</a>
-									`;
-									return output;
-								},
-							}, {
-								field: 'cargo',
-								title: 'Cargo',
-							}, {
-								field: 'unidad_negocio',
-								title: 'Unidad Negocio',
-							}, {
-								field: 'empresa',
-								title: 'Empresa',
-							}, {
-								field: 'tipo_empleado',
-								title: 'Tipo Empleado',
-							}, {
-								field: 'tipo_contrato',
-								title: 'Tipo Contrato',
+								field: 'fecha_factura',
+								title: 'Fecha',
 								width: 90,
 							}, {
-								field: 'estado_laboral',
-								title: 'Estado Laboral',
+								field: 'num_contrato',
+								title: 'Num Contrato',
+								width: 70,
+
+							}, {
+								field: 'nom_factura',
+								title: 'Nombre Factura',
+
+							}, {
+								field: 'nit_factura',
+								title: 'Nit Factura',
+							}, {
+								field: 'total_bs',
+								title: 'Total Bs.',
+								width: 70,
+							}, {
+								field: 'total_usd',
+								title: 'Total Usd',
+							}, {
+								field: 'num_dosificacion',
+								title: 'Dosificación',
+							}, {
+								field: 'estado',
+								title: 'Estado',
+								autoHide: false,
+								// callback function support for column rendering
 								template: function (row) {
-									if (row.estado_laboral == 'Activo') {
-										status = 'kt-badge--success';
-									} else if (row.estado_laboral == 'Desvinculado') {
-										status = 'kt-badge--warning';
-									} else if (row.estado_laboral == 'Retirado') {
+									if (row.estado == 'Anulada') {
 										status = 'kt-badge--danger';
+									} else if (row.estado == 'Pagada') {
+										status = 'kt-badge--success';
+									} else if (row.estado == 'Por pagar') {
+										status = 'kt-badge--warning';
 									} else {
-										return row.estado_laboral;
+										return ' ';
 									}
-									return '<span class="kt-badge ' + status + ' kt-badge--inline kt-badge--pill">' + row.estado_laboral + '</span>';
-								},
-							}, {
-								field: 'estado_entidad',
-								title: 'Estado Entidad',
-								template: function (row) {
-									if (row.estado_entidad == 'Activo') {
-										status = 'success';
-									} else if (row.estado_entidad == 'Inactivo') {
-										status = 'danger';
-									} else {
-										return row.estado_entidad;
-									}
-
-									return '<span class="kt-badge kt-badge--' + status + ' kt-badge--dot"></span>&nbsp;' +
-										'<span class="kt-font-bold kt-font-' + status + '">' + row.estado_entidad + '</span>';
+									return '<span class="kt-badge ' + status + ' kt-badge--inline kt-badge--pill ">' + row.estado + '</span>';
 								},
 							}],
 					});
@@ -487,4 +444,9 @@ export class DashboardComponent implements OnInit {
 		});
 	}
 
+}
+function initEvents() {
+	$('#tabla-facturas-pendientes').on('click', 'a.factura-detalle', function () {
+		g_router.navigate(['/admin/facturas/factura-detalle']);
+	});
 }

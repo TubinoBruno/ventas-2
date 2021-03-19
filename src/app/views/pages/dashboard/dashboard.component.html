@@ -31,10 +31,10 @@
 						<div class="kt-widget14">
 							<div class="kt-widget14__header kt-margin-b-30">
 								<h3 class="kt-widget14__title">
-									Métricas Personal
+									Ventas
 								</h3>
 								<span class="kt-widget14__desc">
-									KPIs del área de Personal
+									Ventas en el año
 								</span>
 							</div>
 							<div class="kt-widget14__chart" style="height:120px;">
@@ -52,10 +52,12 @@
 						<div class="kt-widget14">
 							<div class="kt-widget14__header">
 								<h3 class="kt-widget14__title">
-									Estado Laboral
+									Composición de Ventas
+
 								</h3>
 								<span class="kt-widget14__desc">
-									Estado laboral de todo el grupo
+									Por departamento
+
 								</span>
 							</div>
 							<div class="kt-widget14__content">
@@ -66,15 +68,15 @@
 								<div class="kt-widget14__legends">
 									<div class="kt-widget14__legend">
 										<span class="kt-widget14__bullet kt-bg-success"></span>
-										<span class="kt-widget14__stats">37% Desvinculados</span>
+										<span class="kt-widget14__stats">37% La Paz</span>
 									</div>
 									<div class="kt-widget14__legend">
 										<span class="kt-widget14__bullet kt-bg-warning"></span>
-										<span class="kt-widget14__stats">47% Activos</span>
+										<span class="kt-widget14__stats">47% Santa Cruz</span>
 									</div>
 									<div class="kt-widget14__legend">
 										<span class="kt-widget14__bullet kt-bg-brand"></span>
-										<span class="kt-widget14__stats">19% Retirados</span>
+										<span class="kt-widget14__stats">19% Cochabamba</span>
 									</div>
 								</div>
 							</div>
@@ -218,10 +220,10 @@
 		<div class="kt-portlet__head kt-portlet__head--lg">
 			<div class="kt-portlet__head-label">
 				<span class="kt-portlet__head-icon">
-					<i class="kt-font-brand flaticon2-avatar"></i>
+					<i class="kt-font-brand fa fa-file-invoice-dollar"></i>
 				</span>
 				<h3 class="kt-portlet__head-title">
-					Listado del Personal
+					Facturas pendientes de pago
 				</h3>
 			</div>
 			<div class="kt-portlet__head-toolbar">
@@ -237,31 +239,31 @@
 										<span class="kt-nav__section-text">Choose an option</span>
 									</li>
 									<li class="kt-nav__item">
-										<a  class="kt-nav__link">
+										<a href="#" class="kt-nav__link">
 											<i class="kt-nav__link-icon la la-print"></i>
 											<span class="kt-nav__link-text">Print</span>
 										</a>
 									</li>
 									<li class="kt-nav__item">
-										<a  class="kt-nav__link">
+										<a href="#" class="kt-nav__link">
 											<i class="kt-nav__link-icon la la-copy"></i>
 											<span class="kt-nav__link-text">Copy</span>
 										</a>
 									</li>
 									<li class="kt-nav__item">
-										<a  class="kt-nav__link">
+										<a href="#" class="kt-nav__link">
 											<i class="kt-nav__link-icon la la-file-excel-o"></i>
 											<span class="kt-nav__link-text">Excel</span>
 										</a>
 									</li>
 									<li class="kt-nav__item">
-										<a  class="kt-nav__link">
+										<a href="#" class="kt-nav__link">
 											<i class="kt-nav__link-icon la la-file-text-o"></i>
 											<span class="kt-nav__link-text">CSV</span>
 										</a>
 									</li>
 									<li class="kt-nav__item">
-										<a  class="kt-nav__link">
+										<a href="#" class="kt-nav__link">
 											<i class="kt-nav__link-icon la la-file-pdf-o"></i>
 											<span class="kt-nav__link-text">PDF</span>
 										</a>
@@ -269,11 +271,7 @@
 								</ul>
 							</div>
 						</div>
-						&nbsp;
-						<a  class="btn btn-brand btn-icon-sm">
-							<i class="la la-plus"></i>
-							Alta Funcionario
-						</a>
+						
 					</div>
 				</div>
 			</div>
@@ -288,14 +286,14 @@
 				</div>
 				<div class=" col-sm-12 col-md-3 ">
 					<div class="kt-input-icon kt-input-icon--left">
-						<input type="text" class="form-control form-control-sm" placeholder="Buscar..." id="generalSearch1">
+						<input type="text" class="form-control form-control-sm" placeholder="Buscar..." id="generalSearch">
 						<span class="kt-input-icon__icon kt-input-icon__icon--left">
 							<span><i class="la la-search"></i></span>
 						</span>
 					</div>
 				</div>
 			</div>
-			<div id="tabla-funcionarios"></div>
+			<div id="tabla-facturas-pendientes"></div>
 
 			<!--end: Datatable -->
 		</div>

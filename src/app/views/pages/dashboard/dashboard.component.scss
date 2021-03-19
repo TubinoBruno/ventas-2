@@ -28,9 +28,7 @@
 			color : #5d78ff !important;
 		}
 		
-		a.link-num:hover{
-			text-decoration: underline !important;
-		}
+		
 		.kt-user-card-v2__name {
 			color: #595d6e !important;
 		}
@@ -89,3 +87,9 @@
 // 	font-family: Flaticon2;
 // 	content: "\f1a3" !important;
 // }
+.kt-container, .kt-container.kt-container--fluid {
+    padding: inherit;
+}
+.kt-bg-brand {
+    background-color: #5f76fa !important;
+}

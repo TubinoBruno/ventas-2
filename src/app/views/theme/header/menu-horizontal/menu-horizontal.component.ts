@@ -157,14 +157,20 @@ export class MenuHorizontalComponent implements OnInit, AfterViewInit {
 	 */
 	getItemAttrSubmenuToggle(item) {
 		let toggle = 'hover';
+		let t;
 		if (objectPath.get(item, 'toggle') === 'click') {
 			toggle = 'click';
+			t = toggle;
 		} else if (objectPath.get(item, 'submenu.type') === 'tabs') {
 			toggle = 'tabs';
+			t = toggle;
+
 		} else {
 			// submenu toggle default to 'hover'
-		}
+			t = toggle;
 
+		}
+		objectPath.set(item, 'toggle', 'hover')
 		return toggle;
 	}
 

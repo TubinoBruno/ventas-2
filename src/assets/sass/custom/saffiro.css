@@ -270,6 +270,39 @@
     margin-top: 8px;
 }
 
+.caja {
+    background-color: #CCC;
+    color: #FFF;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.cliente {
+    padding: 10px 0 10px 0;
+    border: solid 1px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.btn.btn-label-brand {
+    background-color: rgba(69,206,98, 0.1);
+    color: #46CE61;
+    cursor: text !important;
+}
+
+button.btn.btn-label-brand:hover {
+    background-color: #46CE61;
+    color: #ffffff;
+}
+
+.kt-widget.kt-widget-perfil.kt-widget--user-profile-3 .kt-widget__bottom {
+    margin-top: 0;
+}
+
+.kt-widget.kt-widget-perfil.kt-widget--user-profile-3 .kt-widget__bottom .kt-widget__item {
+    padding-top: 0;
+}
+
 
 @media (min-width: 1025px) {
   .kt-header-menu .kt-menu__nav > .kt-menu__item:hover > .kt-menu__link > .kt-menu__link-text, .kt-header-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--active > .kt-menu__link > .kt-menu__link-text, .kt-header-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--here > .kt-menu__link > .kt-menu__link-text, .kt-header-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--hover > .kt-menu__link > .kt-menu__link-text {
@@ -303,4 +336,77 @@
   .col-dato-label {
     text-align: left;
   }
+}
+div.filter-option::after {
+    border: 0;
+    margin-right: 2px;
+    font-size: 0.6rem;
+    display: inline-block;
+    font-family: Flaticon2;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-decoration: inherit;
+    text-rendering: optimizeLegibility;
+    text-transform: none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    content: "";
+    vertical-align: middle;
+    position: absolute;
+    top: 15px;
+
+    margin-left: 31.5rem /*rtl:ignore*/;
+    opacity: 0.7;
+}
+#botones-barra div.filter-option::after {
+    border: 0;
+    margin-right: 2px;
+    font-size: 0.6rem;
+    display: inline-block;
+    font-family: Flaticon2;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-decoration: inherit;
+    text-rendering: optimizeLegibility;
+    text-transform: none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    content: "";
+    vertical-align: middle;
+    position: absolute;
+    top: 12px;
+    color: rgb(255, 255, 255);
+
+    margin-left: 16.5rem /*rtl:ignore*/;
+    opacity: 0.7;
+}
+#new-pago div.filter-option::after {
+    border: 0;
+    margin-right: 2px;
+    font-size: 0.6rem;
+    display: inline-block;
+    font-family: Flaticon2;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-decoration: inherit;
+    text-rendering: optimizeLegibility;
+    text-transform: none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    content: "";
+    vertical-align: middle;
+    position: absolute;
+    top: 15px;
+
+    margin-left: 14.5rem /*rtl:ignore*/;
+    opacity: 0.7;
 }

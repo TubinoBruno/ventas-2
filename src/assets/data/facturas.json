@@ -1,0 +1,144 @@
+{
+    "data": [
+        {
+            "num_factura": "236",
+            "fecha_factura": "12-Ene-2021",
+            "num_contrato": "78552864",
+            "nom_factura": "Empresa S.R.L.",
+            "nit_factura": "38558375",
+            "total_bs": "5220",
+            "total_usd": "750",
+            "num_dosificacion": "2135734652",
+            "estado": "Por pagar",
+            "pagos": [
+                {
+                    "monto": "2300",
+                    "moneda": "Bs.",
+                    "forma_pago": "Efectivo",
+                    "ent_finan": "",
+                    "cod_transac": "",
+                    "referencia": ""
+                }
+            ],
+            "items": [
+                {
+                    "cod_item": "100234",
+                    "descripcion": "Detalle de item 1",
+                    "cantidad": "1",
+                    "precio_unitario": "2300",
+                    "moneda": "Bs.",
+                    "subtotal": "2300",
+                    "almacen": "Almacen 1"
+                },
+                {
+                    "cod_item": "100236",
+                    "descripcion": "Detalle de item 2",
+                    "cantidad": "2",
+                    "precio_unitario": "760",
+                    "moneda": "Bs.",
+                    "subtotal": "1520",
+                    "almacen": "Almacen 2"
+                },
+                {
+                    "cod_item": "100238",
+                    "descripcion": "Detalle de item 3",
+                    "cantidad": "1",
+                    "precio_unitario": "1400",
+                    "moneda": "Bs.",
+                    "subtotal": "1400",
+                    "almacen": "Almacen 3"
+                }
+            ]
+        },
+        {
+            "num_factura": "238",
+            "fecha_factura": "10-Ene-2021",
+            "num_contrato": "65439824",
+            "nom_factura": "Empresa 2 S.R.L.",
+            "nit_factura": "439852",
+            "total_bs": "3820",
+            "total_usd": "780",
+            "num_dosificacion": "2135734652",
+            "estado": "Pagada",
+            "pagos": [
+                {
+                    "monto": "2300",
+                    "moneda": "Bs.",
+                    "forma_pago": "Efectivo",
+                    "ent_finan": "",
+                    "cod_transac": "",
+                    "referencia": ""
+                },
+                {
+                    "monto": "1520",
+                    "moneda": "Bs.",
+                    "forma_pago": "Tarjeta de crédito",
+                    "ent_finan": "Banco Nacional",
+                    "cod_transac": "64653543",
+                    "referencia": ""
+                }
+            ],
+            "items": [
+                {
+                    "cod_item": "100234",
+                    "descripcion": "Detalle de item 1",
+                    "cantidad": "1",
+                    "precio_unitario": "2300",
+                    "moneda": "Bs.",
+                    "subtotal": "2300",
+                    "almacen": "Almacen 1"
+                },
+                {
+                    "cod_item": "100236",
+                    "descripcion": "Detalle de item 2",
+                    "cantidad": "2",
+                    "precio_unitario": "760",
+                    "moneda": "Bs.",
+                    "subtotal": "1520",
+                    "almacen": "Almacen 2"
+                }
+            ]
+        },
+        {
+            "num_factura": "240",
+            "fecha_factura": "8-Ene-2021",
+            "num_contrato": "78552864",
+            "nom_factura": "Empresa XX S.A.",
+            "nit_factura": "280535",
+            "total_bs": "3820",
+            "total_usd": "780",
+            "num_dosificacion": "2135734652",
+            "estado": "Anulada",
+            "pagos": [
+                {
+                    "monto": "3820",
+                    "moneda": "Bs.",
+                    "forma_pago": "Cheque",
+                    "ent_finan": "Banco de Crédito",
+                    "cod_transac": "734653",
+                    "referencia": "Cheque"
+                }
+            ],
+            "items": [
+                {
+                    "cod_item": "100234",
+                    "descripcion": "Detalle de item 1",
+                    "cantidad": "1",
+                    "precio_unitario": "2300",
+                    "moneda": "Bs.",
+                    "subtotal": "2300",
+                    "almacen": "Almacen 1"
+                },
+                {
+                    "cod_item": "100236",
+                    "descripcion": "Detalle de item 2",
+                    "cantidad": "2",
+                    "precio_unitario": "760",
+                    "moneda": "Bs.",
+                    "subtotal": "1520",
+                    "almacen": "Almacen 2"
+                }
+            ]
+        }
+    ]
+}

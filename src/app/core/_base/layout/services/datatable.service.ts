@@ -32,9 +32,32 @@ export class DataTableService {
 	}
 
 	getDashboardTableData2() : Observable<any>{
-		return this.http.get<any>(JSON_URL + 'personal.json');
+		return this.http.get<any>(JSON_URL + 'facturas.json');
 	}
-
+	getItemDeFactura() : Observable<any>{
+		return this.http.get<any>(JSON_URL + 'detalle-factura.json');
+	}
+	getPagosFactura() : Observable<any>{
+		return this.http.get<any>(JSON_URL + 'pagos-factura.json');
+	}
+	getDetalleFactura() : Observable<any>{
+		return this.http.get<any>(JSON_URL + 'detalle-factura.json');
+	}
+	getProductos() : Observable<any>{
+		return this.http.get<any>(JSON_URL + 'productos.json');
+	}
+	getPrecios() : Observable<any>{
+		return this.http.get<any>(JSON_URL + 'precios.json');
+	}
+	getCajas() : Observable<any>{
+		return this.http.get<any>(JSON_URL + 'cajas.json');
+	}
+	getDosificaciones() : Observable<any>{
+		return this.http.get<any>(JSON_URL + 'dosificaciones.json');
+	}
+	getCajasPagos() : Observable<any>{
+		return this.http.get<any>(JSON_URL + 'cajas-pagos.json');
+	}
 	//develoment -> change position page
 	getAwaitingRequests() : Observable<any>{
 		return this.http.get<any>(JSON_URL + 'cargos.json');

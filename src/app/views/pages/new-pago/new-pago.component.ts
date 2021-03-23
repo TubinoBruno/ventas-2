@@ -7,6 +7,8 @@ import { DataTableService } from '../../../core/_base/layout/services/datatable.
 let g_router;
 declare var $: any;
 declare var Morris: any;
+declare var swal: any;
+
 @Component({
   selector: 'kt-new-pago',
   templateUrl: './new-pago.component.html',
@@ -21,8 +23,41 @@ export class NewPagoComponent implements OnInit {
     g_router = router;
   }
   ngOnInit() {
+
     this.initTable1();
 		this.initTable2();
+		var KTSweetAlert2Demo = function () {
+
+			var initSaffiroReclutamiento = function () {
+	  
+			  $('#btn-guardar-proceso').click(function (e) {
+				swal.fire({
+				  title: 'Está seguro?',
+				  text: "No podrá deshacer esta acción!",
+				  type: 'warning',
+				  showCancelButton: true,
+				  confirmButtonText: 'Si, guardar!'
+				}).then(function (result) {
+				  if (result.value) {
+					swal.fire(
+					  'Guardado!',
+					  'Los datos fueron guardados con éxito.',
+					  'success'
+					)
+				  }
+				});
+			  });
+			};
+	  
+			return {
+			  // Init
+			  init: function () {
+				initSaffiroReclutamiento();
+			  },
+			};
+		  }();
+	  
+		  KTSweetAlert2Demo.init();
     this.KTBootstrapSelect = function () {
 
       // Private functions
@@ -215,5 +250,3 @@ export class NewPagoComponent implements OnInit {
 
 
 }
-
-

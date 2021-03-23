@@ -40,6 +40,7 @@ export class ProductoHistorialPrecioComponent implements OnInit {
     this.KTBootstrapSelect.init();
     initEvents();
     initEvents1();
+    clickEvents();
   }
   initTable1() {
     this.service.getPrecios().subscribe(res => {
@@ -161,5 +162,20 @@ function initEvents() {
 function initEvents1() {
 	$('#product-link').on('click', 'a.product-detalle', function () {
 		g_router.navigate(['/admin/product/product-detalle']);
+	});
+}
+function clickEvents() {
+	$('#tabla-historial-precios').on( 'click', 'tr.kt-datatable__row', function (e) {
+		//$('#fecha_ausen').val( datatable.getRecord(this).getColumn('fecha').getValue() );
+		var data = $(e.currentTarget).data('obj');
+		//console.log(data); // pass it into your inputs
+		$('#valor').val( data.valor);
+		$('#costo').val( data.costo);
+		$('#dias_restriccion').val( data.restriccion );
+		$('#valor_restriccion').val( data.valor_restric );
+		$('#valor_comisionable').val( data.valor_comision );
+		$('#valor_financiero').val( data.valor_finan );
+		$('#fecha_ini').val( data.fecha_desde );
+		$('#fecha_fin').val( data.fecha_hasta );
 	});
 }

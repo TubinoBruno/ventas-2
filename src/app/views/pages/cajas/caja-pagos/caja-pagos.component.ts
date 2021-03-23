@@ -78,36 +78,37 @@ export class CajaPagosComponent implements OnInit {
 						},
 
 						// columns definition
-						columns: [
-              {
-                field: 'factura',
-                title: 'Factura',
-                width: 90,
-                autoHide: false,
-                template: function(row) {
-                  return '<a class="kt-link link-num caja-detalle">' + row.factura + '</a>';
+						
+              columns: [
+                {
+                  field: 'factura',
+                  title: 'Factura',
+                  width: 90,
+                  autoHide: false,
+                  template: function(row) {
+                    return '<a class="kt-link link-num caja-detalle">' + row.factura + '</a>';
 
-                },
-              },{
-                field: 'contrato',
-                title: 'Contrato',
-                
-              }, {
-                field: 'nom_factura',
-                title: 'Nombre Factura',
-              }, {
-                field: 'nit_factura',
-                title: 'Nit Factura',
-              }, {
-                field: 'monto',
-                title: 'Monto',
-                autoHide: false,
-              }, {
-                field: 'moneda',
-                title: 'Moneda',
-                autoHide: false,
-                
-              }],
+                  },
+                },{
+                  field: 'contrato',
+                  title: 'Contrato',
+                  
+                }, {
+                  field: 'nom_factura',
+                  title: 'Nombre Factura',
+                }, {
+                  field: 'nit_factura',
+                  title: 'Nit Factura',
+                }, {
+                  field: 'monto',
+                  title: 'Monto',
+                  autoHide: false,
+                }, {
+                  field: 'moneda',
+                  title: 'Moneda',
+                  autoHide: false,
+                  
+                }],
 					});
 
 				};
@@ -126,7 +127,7 @@ export class CajaPagosComponent implements OnInit {
 }
 function initEvents() {
 	$('#caja-data').on('click', 'a.datos-caja', function () {
-		g_router.navigate(['/admin/cajas/caja-pago-detalle']);
+		g_router.navigate(['/admin/cajas/caja-detalle']);
 	});
 }
 function initEvents1() {

@@ -120,6 +120,15 @@ export class DashboardComponent implements OnInit {
 					data: [
 						245, 320, 89
 					],
+					// 	'brand': '#5d78ff',
+				// 'light': '#ffffff',
+				// 'dark': '#282a3c',
+				// 'primary': '#5867dd',
+				// 'success': '#34bfa3',
+				// 'info': '#36a3f7',
+				// 'warning': '#ffb822',
+				// 'danger': '#fd3995',
+				//branndddd
 					backgroundColor: [
 						this.layoutConfigService.getConfig('colors.state.success'),
 						this.layoutConfigService.getConfig('colors.state.warning'),

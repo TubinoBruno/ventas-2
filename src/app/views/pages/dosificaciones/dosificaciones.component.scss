@@ -38,7 +38,12 @@
     background-color: #46CE61 !important;
     border-color: #46CE61 !important;
 }
-
+a.btn.btn-outline-brand.btn-icon-sm.new-dosific {
+    color: #46CE61;
+}
+a.btn.btn-outline-brand.btn-icon-sm.new-dosific:hover {
+    color: #ffffff;
+}
 .show > .btn.btn-default, .btn.btn-default.active, .btn.btn-default:active, .btn.btn-default:hover {
     color: #ffffff;
     background: #46CE61;

@@ -32,7 +32,12 @@
 .kt-font-brand {
     color: #46CE61 !important;
 }
-
+a.btn.btn-outline-brand.btn-icon-sm.nueva-factura {
+    color: #46CE61;
+}
+a.btn.btn-outline-brand.btn-icon-sm.nueva-factura:hover {
+    color: #ffffff;
+}
 .btn-brand.dropdown-toggle {
     color: #fff !important;
     background-color: #46CE61 !important;

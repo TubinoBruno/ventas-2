@@ -9,7 +9,7 @@ export class LayoutConfig {
 			'body': {
 				'background-image': './assets/media/misc/bg-1.jpg',
 			},
-			'logo': './assets/media/logos/logo-6.png',
+			'logo': './assets/media/logos/saffiro.png',
 		},
 		// == Page Splash Screen loading
 		'loader': {

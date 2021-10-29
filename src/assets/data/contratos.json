@@ -1,0 +1,60 @@
+{
+    "data": [
+        {
+            "num_contrato": "90018001",
+            "tipo_contrato": "Compra",
+            "concepto": "Compra de activos",
+            "monto": "9000",
+            "moneda": "Bs.",
+            "fecha_ini": "12-Feb-2020",
+            "fecha_fin": "12-Feb-2021",
+            "version": "V1.2",
+            "nom_cliente": "Servicios Generales S.R.L.",
+            "ci_nit": "2345678",
+            "modificacion": "Adenda",
+            "estado": "Ingresado"
+        },
+        {
+            "num_contrato": "90018041",
+            "tipo_contrato": "Venta",
+            "concepto": "Venta de activos",
+            "monto": "5000",
+            "moneda": "Bs.",
+            "fecha_ini": "2-Mar-2020",
+            "fecha_fin": "2-Mar-2021",
+            "version": "V1.2",
+            "nom_cliente": "Rodolfo Claros",
+            "ci_nit": "1234567LP",
+            "modificacion": "Recisión",
+            "estado": "Aprobado"
+        },
+        {
+            "num_contrato": "90018062",
+            "tipo_contrato": "Compra",
+            "concepto": "Compra de activos",
+            "monto": "7500",
+            "moneda": "Bs.",
+            "fecha_ini": "7-Jun-2020",
+            "fecha_fin": "7-Jun-2021",
+            "version": "V1.2",
+            "nom_cliente": "Muebles S.R.L.",
+            "ci_nit": "3548642",
+            "modificacion": "Adenda",
+            "estado": "Ingresado"
+        },
+        {
+            "num_contrato": "90018086",
+            "tipo_contrato": "Venta",
+            "concepto": "Venta de activos",
+            "monto": "8200",
+            "moneda": "Bs.",
+            "fecha_ini": "12-Dic-2020",
+            "fecha_fin": "12-Dic-2021",
+            "version": "V1.2",
+            "nom_cliente": "Fernando Cuellar",
+            "ci_nit": "1253765SC",
+            "modificacion": "Recisión",
+            "estado": "Rechazado"
+        }
+    ]
+}

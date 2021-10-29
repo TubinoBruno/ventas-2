@@ -62,7 +62,6 @@ import * as xml from 'highlight.js/lib/languages/xml';
 import * as json from 'highlight.js/lib/languages/json';
 
 import { MorrisJsModule } from 'angular-morris-js';
-
 // tslint:disable-next-line:class-name
 const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
 	wheelSpeed: 0.5,

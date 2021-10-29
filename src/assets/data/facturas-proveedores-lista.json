@@ -1,0 +1,44 @@
+{
+    "data": [
+        {
+            "num_oc": "OC-123456",
+            "fecha_entrega": "7-Jun-2021",
+            "nit_proveedor": "2345678",
+            "nom_proveedor": "Papelera S.A.",
+            "monto": "3400",
+            "moneda": "Bs.",
+            "centro_costo": "Comercial",
+            "estado": "Generado"
+        },
+        {
+            "num_oc": "OC-123463",
+            "fecha_entrega": "17-Feb-2021",
+            "nit_proveedor": "3456278",
+            "nom_proveedor": "Muebles S.R.L.",
+            "monto": "8600",
+            "moneda": "Bs.",
+            "centro_costo": "RRHH",
+            "estado": "Aprobado"
+        },
+        {
+            "num_oc": "OC-123468",
+            "fecha_entrega": "4-Mar-2021",
+            "nit_proveedor": "27083454",
+            "nom_proveedor": "Materiales S.R.L.",
+            "monto": "2000",
+            "moneda": "Bs.",
+            "centro_costo": "Comercial",
+            "estado": "Aprobado"
+        },
+        {
+            "num_oc": "OC-123476",
+            "fecha_entrega": "26-Abr-2021",
+            "nit_proveedor": "31703458",
+            "nom_proveedor": "Servicios Integrales S.A.",
+            "monto": "7800",
+            "moneda": "Bs.",
+            "centro_costo": "Administración",
+            "estado": "Generado"
+        }
+    ]
+}

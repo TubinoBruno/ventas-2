@@ -1,0 +1,44 @@
+{
+    "data": [
+        {
+            "num_solicitud": "SC-0001",
+            "tipo_compra": "Productos",
+            "descripcion": "Compra de material de oficina",
+            "monto": "3400",
+            "fecha_ini": "7-Jun-2021",
+            "solicitante": "Juan Perez",
+            "cargo_solicitante": "Jefe Comercial",
+            "estado": "Generada"
+        },
+        {
+            "num_solicitud": "SC-0002",
+            "tipo_compra": "Servicios",
+            "descripcion": "Instalación de mobiliario",
+            "monto": "9800",
+            "fecha_ini": "10-Jun-2021",
+            "solicitante": "Pedro Vargas",
+            "cargo_solicitante": "Asistente Administrativo",
+            "estado": "Generada"
+        },
+        {
+            "num_solicitud": "SC-0003",
+            "tipo_compra": "Servicios",
+            "descripcion": "Desarrollo de software",
+            "monto": "12400",
+            "fecha_ini": "16-Ene-2020",
+            "solicitante": "Cecilia Rojas",
+            "cargo_solicitante": "Jefe de Ventas",
+            "estado": "Aprobada"
+        },
+        {
+            "num_solicitud": "SC-0004",
+            "tipo_compra": "Servicios",
+            "descripcion": "Servicios de limpieza",
+            "monto": "8500",
+            "fecha_ini": "2-Feb-2018",
+            "solicitante": "Fernando Aguirre",
+            "cargo_solicitante": "Jefe RRHH",
+            "estado": "Rechazada"
+        }
+    ]
+}

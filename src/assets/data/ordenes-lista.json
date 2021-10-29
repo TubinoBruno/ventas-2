@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "num_orden": "OC-0001",
+            "num_secuencia": "0002",
+            "nit_proveedor": "2379756",
+            "nom_proveedor": "Papelera S.A.",
+            "monto": "3400",
+            "fecha_contable": "7-Jun-2021",
+            "fecha_entrega": "10-Ago-2021",
+            "estado": "Vigente"
+        },
+        {
+            "num_orden": "OC-0002",
+            "num_secuencia": "0003",
+            "nit_proveedor": "3085276",
+            "nom_proveedor": "Home Office S.R.L.",
+            "monto": "9800",
+            "fecha_contable": "7-Jun-2021",
+            "fecha_entrega": "20-Jul-2021",
+            "estado": "Vigente"
+        },
+        {
+            "num_orden": "OC-0003",
+            "num_secuencia": "0004",
+            "nit_proveedor": "1093476",
+            "nom_proveedor": "Servicios Tecnológicos S.R.L.",
+            "monto": "12400",
+            "fecha_contable": "7-Jun-2021",
+            "fecha_entrega": "20-Jul-2021",
+            "estado": "Vigente"
+        }
+    ]
+}

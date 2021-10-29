@@ -1,0 +1,25 @@
+{
+    "data": [
+        {
+            "item": "1",
+            "nombre": "Blígrafo azul",
+            "unidad": "Unidad",
+            "cantidad": "20",
+            "costo": "10"
+        },
+        {
+            "item": "2",
+            "nombre": "Postit amarillo",
+            "unidad": "Paquete x10",
+            "cantidad": "15",
+            "costo": "12"
+        },
+        {
+            "item": "3",
+            "nombre": "Hojas tamaño carta",
+            "unidad": "Paquete x500",
+            "cantidad": "5",
+            "costo": "30"
+        }
+    ]
+}

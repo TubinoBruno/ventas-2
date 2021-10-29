@@ -14,65 +14,88 @@ export class MenuConfig {
 
 				},
 				{
-					title : 'Facturación',
-					subtitle: 'facturacion',
+					title : 'Compras',
+					subtitle: 'compras',
 					root : true,
 					alignment : 'left',
 					toggle : 'click',
 					submenu : [ 
 						{
-							title : 'Nueva factura',
+							title : 'Proveedores',
 							bullet : 'dot',
-							icon: 'fa fa-file-invoice-dollar',
-							page : '/admin/new-factura'
+							icon: 'fa fa-industry',
+							page : '/admin/proveed'
 						},
 						{
-							title : 'Facturas',
+							title : 'Contratos',
+							bullet : 'dot',
+							icon: 'fa fa-file-contract',
+							page : '/admin/contrato'
+						},
+						{
+							title : 'Compras',
+							bullet : 'dot',
+							icon: 'fa fa-file-invoice-dollar',
+							page : '/admin/compra'
+						},
+						{
+							title : 'Ordenes de compra',
+							bullet : 'dot',
+							icon: 'fa fa-file-invoice-dollar',
+							page : '/admin/orden-compra'
+						},
+						{
+							title : 'Pedidos almacén',
 							bullet : 'dot',
 							icon: 'fa fa-copy',
-							page : '/admin/facturas'
+							page : '/admin/pedido-almacen'
 						}
 
 					]
 				},
 				{
-					title : 'Productos',
+					title : 'Pagos',
 					root : true,
 					alignment : 'left',
 					toggle : 'click',
 					submenu : [
 						{
-							title : 'Nuevo Producto',
-							icon : 'fa fa-user-plus',
-							page : '/admin/new-product'
+							title : 'Pago a proveedores',
+							icon : 'flaticon2-file-1',
+							page : '/admin/pago-proveedor'
 						},
 						{
-							title : 'Productos',
+							title : 'Pago con anticipo',
 							icon : 'flaticon2-file-1',
-							page : '/admin/product'
-						}
+							page : '/admin/pago-anticipo'
+						},
+						{
+							title : 'Pago servicios básicos',
+							icon : 'flaticon2-file-1',
+							page : '/admin/pago-servicio-lista'
+						},
 					]
 				},
 				{
-					title : 'Cajas',
+					title : 'Caja Chica',
 					root : true,
 					alignment : 'left',
 					toggle : 'click',
 					submenu : [
 						{
-							title : 'Cajas',
-							icon : 'fa fa-calculator',
-							page : '/admin/cajas'
+							title : 'Nueva caja chica',
+							icon : 'fa fa-user-plus',
+							page : '/admin/caja-chica'
 						},
 						{
-							title : 'Dosificaciones',
-							icon : 'flaticon2-sheet',
-							page : '/admin/dosificaciones'
+							title : 'Listado caja chica',
+							icon : 'flaticon2-file-1',
+							page : '/admin/listado-caja'
 						},
 						{
-							title : 'Nuevo Pago',
-							icon : 'fa fa-plus-square',
-							page : '/admin/new-pago'
+							title : 'Fondos',
+							icon : 'flaticon2-file-1',
+							page : '/admin/fondo-caja'
 						}
 					]
 				},

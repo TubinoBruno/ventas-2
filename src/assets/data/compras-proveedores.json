@@ -1,0 +1,28 @@
+{
+    "data": [
+        {
+            "nit_prov": "123456",
+            "nombre_prov": "Muebles S.R.L.",
+            "moneda": "Bs.",
+            "total": "850",
+            "fecha_entrega": "12-07-2021",
+            "comentarios": "Entrega antes de medio día"
+        },
+        {
+            "nit_prov": "234567",
+            "nombre_prov": "Office S.R.L.",
+            "moneda": "Bs.",
+            "total": "800",
+            "fecha_entrega": "12-07-2021",
+            "comentarios": ""
+        },
+        {
+            "nit_prov": "345678",
+            "nombre_prov": "Importadora S.R.L.",
+            "moneda": "Bs.",
+            "total": "820",
+            "fecha_entrega": "12-07-2021",
+            "comentarios": "Entrega por la tarde"
+        }
+    ]
+}

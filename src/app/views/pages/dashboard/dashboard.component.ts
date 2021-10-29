@@ -52,7 +52,6 @@ export class DashboardComponent implements OnInit {
 			};
 		}();
 		this.KTBootstrapSelect.init();
-		initEvents();
 
 	}
 
@@ -456,6 +455,6 @@ export class DashboardComponent implements OnInit {
 }
 function initEvents() {
 	$('#tabla-facturas-pendientes').on('click', 'a.factura-detalle', function () {
-		g_router.navigate(['/admin/facturas/factura-detalle']);
+		g_router.navigate(['/admin/---------']);
 	});
 }

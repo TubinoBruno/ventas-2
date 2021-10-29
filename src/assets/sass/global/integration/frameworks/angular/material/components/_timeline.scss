@@ -142,16 +142,17 @@
 
 // badge
 .kt-badge {
-	background: #eaeaea;
-	color: #444;
 	font-size: 0.8rem;
-	line-height: 20px;
-	min-height: 20px;
+	line-height: 3px;
+	min-height: 16px ;
 	min-width: 20px;
+	width: auto;
+	height: auto;
 	vertical-align: middle;
 	text-align: center;
+	margin-top: 6px !important;
 	display: inline-block;
-	padding: 0 3px;
+	padding: 0 7px;
 	border-radius: 0.75rem;
 	&--wide {
 		letter-spacing: 0.6px;

@@ -1,0 +1,48 @@
+{
+    "data": [
+        {
+            "num_doc": "SC-123456",
+            "num_secuencia": "00005",
+            "doc_referencia": "2345678",
+            "fecha_contable": "9-May-2021",
+            "nom_solicitante": "Fernando Claros",
+            "cargo_solicitante": "Encargado de compras",
+            "nom_aprobacion": "Milenka Dávalos",
+            "cargo_aprobacion": "Gerente Regional",
+            "estado": "Generada"
+        },
+        {
+            "num_doc": "SC-123839",
+            "num_secuencia": "00006",
+            "doc_referencia": "2345678",
+            "fecha_contable": "12-Mar-2021",
+            "nom_solicitante": "Carlos Rios",
+            "cargo_solicitante": "Asistente de compras",
+            "nom_aprobacion": "Milenka Dávalos",
+            "cargo_aprobacion": "Gerente Regional",
+            "estado": "Aprobada"
+        },
+        {
+            "num_doc": "SC-120714",
+            "num_secuencia": "00007",
+            "doc_referencia": "2345678",
+            "fecha_contable": "8-Feb-2021",
+            "nom_solicitante": "Roberto Paredes",
+            "cargo_solicitante": "Asistente comercial",
+            "nom_aprobacion": "Milenka Dávalos",
+            "cargo_aprobacion": "Gerente Regional",
+            "estado": "Aprobada"
+        },
+        {
+            "num_doc": "SC-3270732",
+            "num_secuencia": "00008",
+            "doc_referencia": "2345678",
+            "fecha_contable": "22-Abr-2021",
+            "nom_solicitante": "Claudia Fernandez",
+            "cargo_solicitante": "Jefe de Desarrollo",
+            "nom_aprobacion": "Milenka Dávalos",
+            "cargo_aprobacion": "Gerente Regional",
+            "estado": "Pagada"
+        }
+    ]
+}

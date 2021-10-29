@@ -21,34 +21,52 @@ const routes: Routes = [
 				path: 'dashboard',
 				loadChildren: () => import('../app/views/pages/dashboard/dashboard.module').then(m => m.DashboardModule)
 			},
+			
 			{
-				path: 'facturas',
-				loadChildren: () => import('../app/views/pages/facturas/facturas.module').then(m => m.FacturasModule)
+				path: 'proveed',
+				loadChildren: () => import('../app/views/pages/compras-proveed/compras-proveed.module').then(m => m.ComprasProveedModule)
 			},
 			{
-				path: 'new-factura',
-				loadChildren: () => import('../app/views/pages/new-factura/new-factura.module').then(m => m.NewFacturaModule)
-			},
-			{
-				path: 'new-product',
-				loadChildren: () => import('../app/views/pages/new-product/new-product.module').then(m => m.NewProductModule)
+				path: 'orden-compra',
+				loadChildren: () => import('../app/views/pages/orden-compra/orden-compra.module').then(m => m.OrdenCompraModule)
 			},
 			
 			{
-				path: 'product',
-				loadChildren: () => import('../app/views/pages/product/product.module').then(m => m.ProductModule)
+				path: 'pago-proveedor',
+				loadChildren: () => import('../app/views/pages/pago-proveedores/pago-proveedores.module').then(m => m.PagoProveedoresModule)
 			},
 			{
-				path: 'new-pago',
-				loadChildren: () => import('../app/views/pages/new-pago/new-pago.module').then(m => m.NewPagoModule)
+				path: 'pago-anticipo',
+				loadChildren: () => import('../app/views/pages/pago-anticipo/pago-anticipo.module').then(m => m.PagoAnticipoModule)
 			},
 			{
-				path: 'dosificaciones',
-				loadChildren: () => import('../app/views/pages/dosificaciones/dosificaciones.module').then(m => m.DosificacionesModule)
+				path: 'pedido-almacen',
+				loadChildren: () => import('../app/views/pages/pedidos-almacen-lista/pedidos-almacen-lista.module').then(m => m.PedidosAlmacenListaModule)
 			},
 			{
-				path: 'cajas',
-				loadChildren: () => import('../app/views/pages/cajas/cajas.module').then(m => m.CajasModule)
+				path: 'caja-chica',
+				loadChildren: () => import('../app/views/pages/nueva-caja-chica/nueva-caja-chica.module').then(m => m.NuevaCajaChicaModule)
+			},
+			
+			{
+				path: 'listado-caja',
+				loadChildren: () => import('../app/views/pages/listado-caja/listado-caja.module').then(m => m.ListadoCajaModule)
+			},
+			{
+				path: 'fondo-caja',
+				loadChildren: () => import('../app/views/pages/fondos/fondos.module').then(m => m.FondosModule)
+			},
+			{
+				path: 'pago-servicio-lista',
+				loadChildren: () => import('../app/views/pages/pago-servicios-lista/pago-servicios-lista.module').then(m => m.PagoServiciosListaModule)
+			},
+			{
+				path: 'contrato',
+				loadChildren: () => import('../app/views/pages/contratos/contratos.module').then(m => m.ContratosModule)
+			},
+			{
+				path: 'compra',
+				loadChildren: () => import('../app/views/pages/compras/compras.module').then(m => m.ComprasModule)
 			},
 			{
 				path: 'error/403',
@@ -65,24 +83,7 @@ const routes: Routes = [
 			{path: '**', redirectTo: 'admin/dashboard', pathMatch: 'full'}
 		]
 	},
-	{
-		path: 'user',
-		component: BaseComponent,
-		canActivate: [AuthUserGuard],
-		children : [
-			{
-				path : 'dashboard',
-				loadChildren : () => import('../app/views/pages/user-dashboard/user-dashboard.module').then(m => m.UserDashboardModule)
-			},
-			{
-				path : 'beneficios-usuario',
-				loadChildren : () => import('../app/views/pages/user-benefits/user-benefits.module').then(m => m.UserBenefitsModule)
-			},
-			{path: 'error/:type', component: ErrorPageComponent},
-			{path: '', redirectTo: 'user/user-benefits', pathMatch: 'full'},
-			{path: '**', redirectTo: 'user/user-benefits', pathMatch: 'full'}
-		]
-	},
+	
 	{path: '', redirectTo: '', pathMatch: 'full'},
 	{path: '**', redirectTo: '', pathMatch: 'full'},
 ];

@@ -1,0 +1,60 @@
+{
+    "data": [
+        {
+            "documento": "123456",
+            "fecha_contable": "3-Feb-2021",
+            "nom_solicitante": "Ramiro Vargas",
+            "cargo_solicitante": "Jefe Administrativo",
+            "nom_aprobacion": "Milenka Davalos",
+            "cargo_aprobacion": "Gerente Regional",
+            "monto": "7000",
+            "reposicion_porc": "20%",
+            "reposicion_monto": "1400",
+            "observaciones": "",
+            "centro_costo": "RRHH",
+            "estado": "Generada"
+        },
+        {
+            "documento": "123456",
+            "fecha_contable": "10-Mar-2021",
+            "nom_solicitante": "Cecilia Guzman",
+            "cargo_solicitante": "Asistente Administrativo",
+            "nom_aprobacion": "Milenka Davalos",
+            "cargo_aprobacion": "Gerente Regional",
+            "monto": "5000",
+            "reposicion_porc": "10%",
+            "reposicion_monto": "500",
+            "observaciones": "",
+            "centro_costo": "Administración",
+            "estado": "Aprobada"
+        },
+        {
+            "documento": "123456",
+            "fecha_contable": "7-Abr-2021",
+            "nom_solicitante": "Marco Ramos",
+            "cargo_solicitante": "Supervisor Cliente",
+            "nom_aprobacion": "Milenka Davalos",
+            "cargo_aprobacion": "Gerente Regional",
+            "monto": "7000",
+            "reposicion_porc": "20%",
+            "reposicion_monto": "1400",
+            "observaciones": "",
+            "centro_costo": "Atención al cliente",
+            "estado": "Aprobada"
+        },
+        {
+            "documento": "123456",
+            "fecha_contable": "23-May-2021",
+            "nom_solicitante": "Maria Cespedes",
+            "cargo_solicitante": "Desarrollador Sistemas",
+            "nom_aprobacion": "Milenka Davalos",
+            "cargo_aprobacion": "Gerente Regional",
+            "monto": "6000",
+            "reposicion_porc": "10%",
+            "reposicion_monto": "600",
+            "observaciones": "",
+            "centro_costo": "Sistemas",
+            "estado": "Anulada"
+        }
+    ]
+}

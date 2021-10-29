@@ -1,0 +1,22 @@
+{
+    "data": [
+        {
+            "banco": "Banco Bisa S.A.",
+            "fecha": "9-Mar-2021",
+            "num_factura": "51",
+            "descripcion": "Pago:Delapaz-15059-1-1",
+            "importe": "66.00",
+            "info": "Nota:DELAPAZ-974136-1-3",
+            "referencia": "45131243422"
+        },
+        {
+            "banco": "Banco Bisa S.A.",
+            "fecha": "9-Mar-2021",
+            "num_factura": "351",
+            "descripcion": "Pago:Delapaz-15059-1-1",
+            "importe": "234.70",
+            "info": "Nota:DELAPAZ-974136-1-3",
+            "referencia": "45131243448"
+        }
+    ]
+}

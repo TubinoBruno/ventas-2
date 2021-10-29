@@ -1,0 +1,40 @@
+{
+    "data": [
+        {
+            "num_sc": "SC-00001",
+            "fecha_solicitud": "7-Jun-2021",
+            "nom_proveedor": "DeLaPaz S.A.",
+            "monto": "300.70",
+            "moneda": "Bs.",
+            "tipo_pago": "Cheque",
+            "estado": "Generado"
+        },
+        {
+            "num_sc": "SC-00002",
+            "fecha_solicitud": "10-Jul-2021",
+            "nom_proveedor": "DeLaPaz S.A.",
+            "monto": "805.40",
+            "moneda": "Bs.",
+            "tipo_pago": "Débito",
+            "estado": "Generado"
+        },
+        {
+            "num_sc": "SC-00003",
+            "fecha_solicitud": "4-Ago-2021",
+            "nom_proveedor": "Tigo",
+            "monto": "1600.50",
+            "moneda": "Bs.",
+            "tipo_pago": "Débito",
+            "estado": "Generado"
+        },
+        {
+            "num_sc": "SC-00004",
+            "fecha_solicitud": "7-Sep-2021",
+            "nom_proveedor": "Ypfb",
+            "monto": "120.20",
+            "moneda": "Bs.",
+            "tipo_pago": "Transferencia",
+            "estado": "Generado"
+        }
+    ]
+}

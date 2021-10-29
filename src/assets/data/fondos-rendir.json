@@ -1,0 +1,48 @@
+{
+    "data": [
+        {
+            "documento": "SC-00001",
+            "secuencia": "00005",
+            "nom_solicitante": "Ramiro Vargas",
+            "cargo_solicitante": "Jefe Administrativo",
+            "nom_aprobacion": "Milenka Davalos",
+            "cargo_aprobacion": "Gerente Regional",
+            "monto": "7000",
+            "centro_costo": "RRHH",
+            "estado": "Generada"
+        },
+        {
+            "documento": "SC-00002",
+            "secuencia": "00006",
+            "nom_solicitante": "Pedro Aguilar",
+            "cargo_solicitante": "Auxiliar Administrativo",
+            "nom_aprobacion": "Milenka Davalos",
+            "cargo_aprobacion": "Gerente Regional",
+            "monto": "3200",
+            "centro_costo": "Administración",
+            "estado": "Generada"
+        },
+        {
+            "documento": "SC-00003",
+            "secuencia": "00007",
+            "nom_solicitante": "Juan Terrazas",
+            "cargo_solicitante": "Desarrollador",
+            "nom_aprobacion": "Milenka Davalos",
+            "cargo_aprobacion": "Gerente Regional",
+            "monto": "2000",
+            "centro_costo": "Sistemas",
+            "estado": "Aprobada"
+        },
+        {
+            "documento": "SC-00004",
+            "secuencia": "00008",
+            "nom_solicitante": "Cecilia Rojas",
+            "cargo_solicitante": "Jefe RRHH",
+            "nom_aprobacion": "Milenka Davalos",
+            "cargo_aprobacion": "Gerente Regional",
+            "monto": "5000",
+            "centro_costo": "RRHH",
+            "estado": "Aprobada"
+        }
+    ]
+}

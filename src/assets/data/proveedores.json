@@ -1,0 +1,64 @@
+{
+    "data": [
+        {
+            "nit_ci": "123456",
+            "cod_proveedor": "123",
+            "nombre_razon": "Papelera S.A.",
+            "tipo_sociedad": "Anomima",
+            "tipo_persona": "",
+            "tel_fijo": "2345678",
+            "tel_celu": "75045638",
+            "email": "info@papelera.com",
+            "banco": "Banco Nacional",
+            "cuenta": "8873457675",
+            "tipo_cuenta": "Cuenta corriente",
+            "moneda": "Bolivianos",
+            "estado": "Ingresado"
+        },
+        {
+            "nit_ci": "234567",
+            "cod_proveedor": "124",
+            "nombre_razon": "Industrias S.R.L.",
+            "tipo_sociedad": "Limitada",
+            "tipo_persona": "",
+            "tel_fijo": "3456786",
+            "tel_celu": "76034528",
+            "email": "info@industrias.bo",
+            "banco": "Banco Bisa",
+            "cuenta": "2765873655",
+            "tipo_cuenta": "Cuenta corriente",
+            "moneda": "Bolivianos",
+            "estado": "Aprobado"
+        },
+        {
+            "nit_ci": "345678",
+            "cod_proveedor": "125",
+            "nombre_razon": "Servicios Tecnologicos S.R.L.",
+            "tipo_sociedad": "Limitada",
+            "tipo_persona": "",
+            "tel_fijo": "23538735",
+            "tel_celu": "70643425",
+            "email": "servicios@gmail.com",
+            "banco": "Banco Económico",
+            "cuenta": "356267846",
+            "tipo_cuenta": "Cuenta corriente",
+            "moneda": "Bolivianos",
+            "estado": "Aprobado"
+        },
+        {
+            "nit_ci": "45677889",
+            "cod_proveedor": "126",
+            "nombre_razon": "Juan Perez",
+            "tipo_sociedad": "Unipersonal",
+            "tipo_persona": "Empresarial",
+            "tel_fijo": "26547634",
+            "tel_celu": "72436746",
+            "email": "juan@gmail.com",
+            "banco": "Banco Sol",
+            "cuenta": "1287645",
+            "tipo_cuenta": "Caja de ahorro",
+            "moneda": "Bolivianos",
+            "estado": "Rechazado"
+        }
+    ]
+}

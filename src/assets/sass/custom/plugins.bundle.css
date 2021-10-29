@@ -1732,7 +1732,9 @@ select.selectpicker {
 
 .bootstrap-select.fit-width {
   width: auto !important; }
-
+  .dropdown.bootstrap-select.kt-datatable__pager-size button.btn {
+    display: table-column !important;
+}
 .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
   width: 220px; }
 

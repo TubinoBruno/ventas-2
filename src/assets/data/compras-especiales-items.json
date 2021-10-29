@@ -1,0 +1,31 @@
+{
+    "data": [
+        {
+            "item": "1",
+            "descripcion": "Silla de plástico reclinable",
+            "precio_unit": "400",
+            "moneda": "Bs.",
+            "cantidad": "3",
+            "subtotal": "1200",
+            "almacen": "La Paz"
+        },
+        {
+            "item": "2",
+            "descripcion": "Notebook Dell",
+            "precio_unit": "3400",
+            "moneda": "Bs.",
+            "cantidad": "1",
+            "subtotal": "3400",
+            "almacen": "Santa Cruz"
+        },
+        {
+            "item": "3",
+            "descripcion": "Engrampadora",
+            "precio_unit": "80",
+            "moneda": "Bs.",
+            "cantidad": "10",
+            "subtotal": "800",
+            "almacen": "La Paz"
+        }
+    ]
+}

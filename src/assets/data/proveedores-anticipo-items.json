@@ -1,0 +1,46 @@
+{
+    "data": [
+        {
+            "fecha_doc": "12-Feb-2021",
+            "tipo_doc": "Factura",
+            "concepto": "Gasolina",
+            "grupo_gasto": "Transporte",
+            "importe": "150",
+            "centro_costo": "Comercial",
+            "importe_base": "150",
+            "descuento": "0",
+            "excento": "0",
+            "ice": "150",
+            "proyecto": "Proyecto de salas",
+            "autorizacion": "1000356553"
+        },
+        {
+            "fecha_doc": "16-Mar-2021",
+            "tipo_doc": "Recibo",
+            "concepto": "Refrigerios",
+            "grupo_gasto": "Refrigerios",
+            "importe": "120",
+            "centro_costo": "Sistemas",
+            "importe_base": "120",
+            "descuento": "0",
+            "excento": "0",
+            "ice": "0",
+            "proyecto": "Saffiro ERP",
+            "autorizacion": "100003476543"
+        },
+        {
+            "fecha_doc": "19-Abr-2021",
+            "tipo_doc": "Factura",
+            "concepto": "Papel de impresora",
+            "grupo_gasto": "Material de escritorio",
+            "importe": "70",
+            "centro_costo": "Administración",
+            "importe_base": "0",
+            "descuento": "0",
+            "excento": "0",
+            "ice": "0",
+            "proyecto": "Salas de velación",
+            "autorizacion": "10000357642"
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "data": [
+        {
+            "nombre": "Juan Valdez",
+            "cargo": "Asistente Administrativo",
+            "area": "Comercial",
+            "fecha": "7-May-2021",
+            "superior": "Pedro Ramirez",
+            "estado": "Ingresado"
+        },
+        {
+            "nombre": "Claudia Ramos",
+            "cargo": "Jefe RRHH",
+            "area": "RRHH",
+            "fecha": "17-May-2021",
+            "superior": "Jaime Rios",
+            "estado": "Ingresado"
+        },
+        {
+            "nombre": "José Aguilar",
+            "cargo": "Jefe de Proyecto",
+            "area": "Sistemas",
+            "fecha": "27-May-2021",
+            "superior": "Francisco Torrez",
+            "estado": "Entregado"
+        },
+        {
+            "nombre": "Claudia Ramos",
+            "cargo": "Jefe RRHH",
+            "area": "RRHH",
+            "fecha": "6-Jun-2021",
+            "superior": "Jaime Rios",
+            "estado": "Rechazado"
+        }
+    ]
+}

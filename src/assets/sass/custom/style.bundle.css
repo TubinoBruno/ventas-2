@@ -56135,4 +56135,7 @@ body {
     padding-left: 0;
     margin-left: 0;
   }
+  .dropdown.bootstrap-select.kt-datatable__pager-size {
+    display: table-column !important;
+}
 }

@@ -1,0 +1,28 @@
+{
+    "data": [
+        {
+            "item": "1",
+            "nombre": "Silla de plástico reclinable",
+            "precio_unit": "400",
+            "cantidad": "3",
+            "subtotal": "1200",
+            "calidad": "Media"
+        },
+        {
+            "item": "2",
+            "nombre": "Silla de tela reclinable",
+            "precio_unit": "500",
+            "cantidad": "2",
+            "subtotal": "1000",
+            "calidad": "Media"
+        },
+        {
+            "item": "3",
+            "nombre": "Sillón de tela ejecutivo",
+            "precio_unit": "900",
+            "cantidad": "1",
+            "subtotal": "900",
+            "calidad": "Media"
+        }
+    ]
+}
